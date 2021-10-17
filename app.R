@@ -6,14 +6,12 @@ library(RColorBrewer)
 library(ggraph)
 library(networkD3)
 library(visNetwork)
-library(ndtv)
 library(shiny)
 library(shinyWidgets)                                                           #Please note that data for Nebraska and South Carolina are only available for the Senate and House, respectively.")))))
 library(visNetwork)
-library(shiny)
 library(stringr)
 library(rsconnect)
-library(shiny)
+
 ui <- fluidPage(titlePanel("Create your own interactive network"), 
                 sidebarLayout(position = "left", sidebarPanel(selectInput(inputId = "state", "Pick a state",
                                                                           c("Alaska" = "AK",
